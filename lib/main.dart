@@ -38,8 +38,8 @@ class _MainPageState extends State<MainPage> {
   );
 
   Widget buildLogo() {
-    return Row(
-      children: const [
+    return const Row(
+      children: [
         Icon(Icons.local_fire_department_rounded,
             color: Colors.white, size: 36),
         SizedBox(width: 4),
